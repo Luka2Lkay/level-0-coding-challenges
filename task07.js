@@ -1,16 +1,12 @@
-function toFahrenheit(celsius){
+function toFahrenheit(celsius) {
+  const temperature = (celsius * 9/5) + 32
 
-    let temperature = celsius + 273
-
-    console.log(temperature)
+  console.log(temperature)
 }
 
-function toCelsius(fahrenheit){
+function toCelsius(fahrenheit) {
+  const temperature = (fahrenheit - 32) * 5/9
 
-    let temperature = fahrenheit - 273
-
-    console.log(temperature)
+  console.log(temperature)
 }
 
-toFahrenheit(30)
-toCelsius(100)

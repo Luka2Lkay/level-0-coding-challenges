@@ -4,7 +4,7 @@ const vowels = ['a', 'e', 'i','o','u']
 
 function vowelsInString (str){
 
-    let empty = []
+    const empty = []
 
     let newStr = str.toLowerCase()
 
@@ -16,7 +16,6 @@ function vowelsInString (str){
         }
     }
 
-let x = empty.toString()
-console.log(`Vowels: ${x}`)
+const convertedList = empty.toString()
+console.log(`Vowels: ${convertedList}`)
 }
-

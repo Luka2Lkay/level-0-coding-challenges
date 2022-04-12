@@ -2,10 +2,10 @@
 
 function vowelsInString (str1,str2){
 
-    let empty = []
+    const empty = []
 
-    let newStr1 = str1.toLowerCase()
-    let newStr2 = str2.toLowerCase()
+    const newStr1 = str1.toLowerCase()
+    const newStr2 = str2.toLowerCase()
 
     for (let alphabet of newStr1){
         if (newStr2.includes(alphabet)){
@@ -15,6 +15,7 @@ function vowelsInString (str1,str2){
         }
     }
 
-let x = empty.toString()
-console.log(`Letters: ${x}`)
+const convertedList = empty.toString()
+console.log(`Letters: ${convertedList}`)
 }
+

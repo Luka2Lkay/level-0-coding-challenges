@@ -1,5 +1,5 @@
-function areaOfTriangle (l,b,h){
-    let area = 1/2 * b * h
+function areaOfTriangle(l, b, h) {
+  const area = (1 / 2) * b * h;
 
-    console.log(area)
+  console.log(area);
 }
