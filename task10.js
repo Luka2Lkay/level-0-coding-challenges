@@ -1,6 +1,6 @@
 
 
-function vowelsInString (str1,str2){
+function commonCharacters (str1,str2){
 
     const empty = []
 
