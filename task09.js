@@ -1,9 +1,8 @@
-const vowels = ["a", "e", "i", "o", "u"];
-
 function vowelsInString(str) {
+  const vowels = ["a", "e", "i", "o", "u"];
   const empty = [];
 
-  let newStr = str.toLowerCase();
+  const newStr = str.toLowerCase();
 
   for (let alphabet of newStr) {
     if (vowels.includes(alphabet)) {
@@ -14,5 +13,5 @@ function vowelsInString(str) {
   }
 
   const convertedList = empty.toString();
-  console.log(`Vowels: ${convertedList}`);
+  return `Vowels: ${convertedList}`;
 }
