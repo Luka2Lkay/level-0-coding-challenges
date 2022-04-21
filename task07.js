@@ -9,6 +9,3 @@ function toCelsius(fahrenheit) {
 
   return temperature;
 }
-
-
-console.log(toFahrenheit(50))
